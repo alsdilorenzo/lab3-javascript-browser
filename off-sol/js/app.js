@@ -62,7 +62,7 @@ function isNextWeek(date) {
 }
 
 /**
- * Function to create a single task encolsed in an <li> tag
+ * Function to create a single task enclosed in an <li> tag
  * @param {*} task the task object
  */
 function createTaskNode(task){
@@ -122,7 +122,7 @@ function createTaskNode(task){
 }
 
 /**
- * Function to create the <ul></ul> list of tasks, withouth any filters
+ * Function to create the <ul></ul> list of tasks, without any filters
  */
 function createAllTasks(){
     const taskList = document.getElementById("taskList");
