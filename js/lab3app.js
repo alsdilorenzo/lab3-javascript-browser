@@ -122,10 +122,10 @@ function checkNextWeek(date){
 
     const nextWeek = new Date();
     nextWeek.setDate(nextWeek.getDate() + 7);
-    tomorrow.setHours(23);
-    tomorrow.setMinutes(59);
-    tomorrow.setSeconds(59);
-    tomorrow.setMilliseconds(59);
+    nextWeek.setHours(23);
+    nextWeek.setMinutes(59);
+    nextWeek.setSeconds(59);
+    nextWeek.setMilliseconds(59);
     return date.getTime() >= tomorrow.getTime() && date.getTime() <= nextWeek.getTime();
 }
 
